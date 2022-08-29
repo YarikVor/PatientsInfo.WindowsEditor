@@ -1,0 +1,6 @@
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\RegexExpressions\bin\Debug\RegexExpressions.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\RegexExpressions\bin\Debug\RegexExpressions.pdb
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\RegexExpressions\obj\Debug\RegexExpressions.csproj.AssemblyReference.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\RegexExpressions\obj\Debug\RegexExpressions.csproj.CoreCompileInputs.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\RegexExpressions\obj\Debug\RegexExpressions.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\RegexExpressions\obj\Debug\RegexExpressions.pdb

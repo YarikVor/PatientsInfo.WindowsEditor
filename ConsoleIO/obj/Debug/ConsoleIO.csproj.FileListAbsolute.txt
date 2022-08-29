@@ -1,0 +1,6 @@
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\ConsoleIO\bin\Debug\ConsoleIO.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\ConsoleIO\bin\Debug\ConsoleIO.pdb
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\ConsoleIO\obj\Debug\ConsoleIO.csproj.AssemblyReference.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\ConsoleIO\obj\Debug\ConsoleIO.csproj.CoreCompileInputs.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\ConsoleIO\obj\Debug\ConsoleIO.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\ConsoleIO\obj\Debug\ConsoleIO.pdb

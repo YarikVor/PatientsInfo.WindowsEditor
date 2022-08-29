@@ -1,0 +1,6 @@
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\Methods\bin\Debug\Methods.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\Methods\bin\Debug\Methods.pdb
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\Methods\obj\Debug\Methods.csproj.AssemblyReference.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\Methods\obj\Debug\Methods.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\Methods\obj\Debug\Methods.pdb

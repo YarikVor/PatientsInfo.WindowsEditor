@@ -1,0 +1,2 @@
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\ConsoleEditor\obj\Debug\ConsoleEditor.csproj.AssemblyReference.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\ConsoleEditor\obj\Debug\ConsoleEditor.csproj.CoreCompileInputs.cache

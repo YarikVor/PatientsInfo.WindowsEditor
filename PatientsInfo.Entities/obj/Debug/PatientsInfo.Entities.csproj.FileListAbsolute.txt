@@ -1,0 +1,9 @@
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\bin\Debug\PatientsInfo.Entities.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\bin\Debug\PatientsInfo.Entities.pdb
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\bin\Debug\Methods.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\bin\Debug\Methods.pdb
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.csproj.AssemblyReference.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.csproj.CoreCompileInputs.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.csproj.CopyComplete
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.pdb

@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0E697AC-6EBF-4892-ACB6-01A819045ED7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PatientsInfo.Window</RootNamespace>
+    <AssemblyName>PatientsInfo.Window</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PatientsInfo.Window.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="FCreatePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCreatePatient.Designer.cs">
+      <DependentUpon>FCreatePatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCreatePerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCreatePerson.Designer.cs">
+      <DependentUpon>FCreatePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMain.Designer.cs">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCreateDisease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCreateDisease.Designer.cs">
+      <DependentUpon>FCreateDisease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCreatePatient.resx">
+      <DependentUpon>FCreatePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCreatePerson.resx">
+      <DependentUpon>FCreatePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMain.resx">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCreateDisease.resx">
+      <DependentUpon>FCreateDisease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Icons\index.url" />
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\Obj.datasource" />
+    <None Include="Properties\DataSources\PatientsInfo.Entities.Data.DataContext.datasource" />
+    <None Include="Properties\DataSources\PatientsInfo.Entities.Disease.datasource" />
+    <None Include="Properties\DataSources\PatientsInfo.Entities.Patient.datasource" />
+    <None Include="Properties\DataSources\PatientsInfo.Entities.Person.datasource" />
+    <None Include="Properties\DataSources\PatientsInfo.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\PatientsInfo.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppSettings\AppSettings.csproj">
+      <Project>{b7af3f6a-f3f1-40a2-bdff-9ab8360c6fab}</Project>
+      <Name>AppSettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileIO\FileIO.csproj">
+      <Project>{cc9ec94b-3f6c-477c-bd5b-ed01d8ee3ee7}</Project>
+      <Name>FileIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Functional\Functional.csproj">
+      <Project>{4e1b2caa-e50f-4bf9-85af-1587e1094a9e}</Project>
+      <Name>Functional</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Methods\Methods.csproj">
+      <Project>{6ab0d940-a508-4147-a6d3-d034f32dc621}</Project>
+      <Name>Methods</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientsInfo.Entities\PatientsInfo.Entities.csproj">
+      <Project>{a8455a99-8895-4f7f-bf7e-435ddde30ecc}</Project>
+      <Name>PatientsInfo.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RegexExpressions\RegexExpressions.csproj">
+      <Project>{d2e58230-de08-413e-a681-eec1742c6cc5}</Project>
+      <Name>RegexExpressions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\bmp\1.bmp" />
+    <Content Include="Icons\bmp\10.bmp" />
+    <Content Include="Icons\bmp\11.bmp" />
+    <Content Include="Icons\bmp\12.bmp" />
+    <Content Include="Icons\bmp\13.bmp" />
+    <Content Include="Icons\bmp\14.bmp" />
+    <Content Include="Icons\bmp\15.bmp" />
+    <Content Include="Icons\bmp\16.bmp" />
+    <Content Include="Icons\bmp\17.bmp" />
+    <Content Include="Icons\bmp\18.bmp" />
+    <Content Include="Icons\bmp\19.bmp" />
+    <Content Include="Icons\bmp\2.bmp" />
+    <Content Include="Icons\bmp\20.bmp" />
+    <Content Include="Icons\bmp\21.bmp" />
+    <Content Include="Icons\bmp\22.bmp" />
+    <Content Include="Icons\bmp\23.bmp" />
+    <Content Include="Icons\bmp\24.bmp" />
+    <Content Include="Icons\bmp\25.bmp" />
+    <Content Include="Icons\bmp\26.bmp" />
+    <Content Include="Icons\bmp\27.bmp" />
+    <Content Include="Icons\bmp\28.bmp" />
+    <Content Include="Icons\bmp\29.bmp" />
+    <Content Include="Icons\bmp\3.bmp" />
+    <Content Include="Icons\bmp\30.bmp" />
+    <Content Include="Icons\bmp\31.bmp" />
+    <Content Include="Icons\bmp\32.bmp" />
+    <Content Include="Icons\bmp\33.bmp" />
+    <Content Include="Icons\bmp\34.bmp" />
+    <Content Include="Icons\bmp\35.bmp" />
+    <Content Include="Icons\bmp\36.bmp" />
+    <Content Include="Icons\bmp\37.bmp" />
+    <Content Include="Icons\bmp\38.bmp" />
+    <Content Include="Icons\bmp\39.bmp" />
+    <Content Include="Icons\bmp\4.bmp" />
+    <Content Include="Icons\bmp\40.bmp" />
+    <Content Include="Icons\bmp\41.bmp" />
+    <Content Include="Icons\bmp\42.bmp" />
+    <Content Include="Icons\bmp\43.bmp" />
+    <Content Include="Icons\bmp\44.bmp" />
+    <Content Include="Icons\bmp\45.bmp" />
+    <Content Include="Icons\bmp\46.bmp" />
+    <Content Include="Icons\bmp\47.bmp" />
+    <Content Include="Icons\bmp\48.bmp" />
+    <Content Include="Icons\bmp\49.bmp" />
+    <Content Include="Icons\bmp\5.bmp" />
+    <Content Include="Icons\bmp\50.bmp" />
+    <Content Include="Icons\bmp\51.bmp" />
+    <Content Include="Icons\bmp\52.bmp" />
+    <Content Include="Icons\bmp\53.bmp" />
+    <Content Include="Icons\bmp\54.bmp" />
+    <Content Include="Icons\bmp\55.bmp" />
+    <Content Include="Icons\bmp\56.bmp" />
+    <Content Include="Icons\bmp\57.bmp" />
+    <Content Include="Icons\bmp\58.bmp" />
+    <Content Include="Icons\bmp\59.bmp" />
+    <Content Include="Icons\bmp\6.bmp" />
+    <Content Include="Icons\bmp\60.bmp" />
+    <Content Include="Icons\bmp\61.bmp" />
+    <Content Include="Icons\bmp\62.bmp" />
+    <Content Include="Icons\bmp\63.bmp" />
+    <Content Include="Icons\bmp\64.bmp" />
+    <Content Include="Icons\bmp\65.bmp" />
+    <Content Include="Icons\bmp\66.bmp" />
+    <Content Include="Icons\bmp\67.bmp" />
+    <Content Include="Icons\bmp\68.bmp" />
+    <Content Include="Icons\bmp\69.bmp" />
+    <Content Include="Icons\bmp\7.bmp" />
+    <Content Include="Icons\bmp\70.bmp" />
+    <Content Include="Icons\bmp\71.bmp" />
+    <Content Include="Icons\bmp\72.bmp" />
+    <Content Include="Icons\bmp\73.bmp" />
+    <Content Include="Icons\bmp\74.bmp" />
+    <Content Include="Icons\bmp\75.bmp" />
+    <Content Include="Icons\bmp\76.bmp" />
+    <Content Include="Icons\bmp\77.bmp" />
+    <Content Include="Icons\bmp\8.bmp" />
+    <Content Include="Icons\bmp\9.bmp" />
+    <Content Include="Icons\gif\1.gif" />
+    <Content Include="Icons\gif\10.gif" />
+    <Content Include="Icons\gif\11.gif" />
+    <Content Include="Icons\gif\12.gif" />
+    <Content Include="Icons\gif\13.gif" />
+    <Content Include="Icons\gif\14.gif" />
+    <Content Include="Icons\gif\15.gif" />
+    <Content Include="Icons\gif\16.gif" />
+    <Content Include="Icons\gif\17.gif" />
+    <Content Include="Icons\gif\18.gif" />
+    <Content Include="Icons\gif\19.gif" />
+    <Content Include="Icons\gif\2.gif" />
+    <Content Include="Icons\gif\20.gif" />
+    <Content Include="Icons\gif\21.gif" />
+    <Content Include="Icons\gif\22.gif" />
+    <Content Include="Icons\gif\23.gif" />
+    <Content Include="Icons\gif\24.gif" />
+    <Content Include="Icons\gif\25.gif" />
+    <Content Include="Icons\gif\26.gif" />
+    <Content Include="Icons\gif\27.gif" />
+    <Content Include="Icons\gif\28.gif" />
+    <Content Include="Icons\gif\29.gif" />
+    <Content Include="Icons\gif\3.gif" />
+    <Content Include="Icons\gif\30.gif" />
+    <Content Include="Icons\gif\31.gif" />
+    <Content Include="Icons\gif\32.gif" />
+    <Content Include="Icons\gif\33.gif" />
+    <Content Include="Icons\gif\34.gif" />
+    <Content Include="Icons\gif\35.gif" />
+    <Content Include="Icons\gif\36.gif" />
+    <Content Include="Icons\gif\37.gif" />
+    <Content Include="Icons\gif\38.gif" />
+    <Content Include="Icons\gif\39.gif" />
+    <Content Include="Icons\gif\4.gif" />
+    <Content Include="Icons\gif\40.gif" />
+    <Content Include="Icons\gif\41.gif" />
+    <Content Include="Icons\gif\42.gif" />
+    <Content Include="Icons\gif\43.gif" />
+    <Content Include="Icons\gif\44.gif" />
+    <Content Include="Icons\gif\45.gif" />
+    <Content Include="Icons\gif\46.gif" />
+    <Content Include="Icons\gif\47.gif" />
+    <Content Include="Icons\gif\48.gif" />
+    <Content Include="Icons\gif\49.gif" />
+    <Content Include="Icons\gif\5.gif" />
+    <Content Include="Icons\gif\50.gif" />
+    <Content Include="Icons\gif\51.gif" />
+    <Content Include="Icons\gif\52.gif" />
+    <Content Include="Icons\gif\53.gif" />
+    <Content Include="Icons\gif\54.gif" />
+    <Content Include="Icons\gif\55.gif" />
+    <Content Include="Icons\gif\56.gif" />
+    <Content Include="Icons\gif\57.gif" />
+    <Content Include="Icons\gif\58.gif" />
+    <Content Include="Icons\gif\59.gif" />
+    <Content Include="Icons\gif\6.gif" />
+    <Content Include="Icons\gif\60.gif" />
+    <Content Include="Icons\gif\61.gif" />
+    <Content Include="Icons\gif\62.gif" />
+    <Content Include="Icons\gif\63.gif" />
+    <Content Include="Icons\gif\64.gif" />
+    <Content Include="Icons\gif\65.gif" />
+    <Content Include="Icons\gif\66.gif" />
+    <Content Include="Icons\gif\67.gif" />
+    <Content Include="Icons\gif\68.gif" />
+    <Content Include="Icons\gif\69.gif" />
+    <Content Include="Icons\gif\7.gif" />
+    <Content Include="Icons\gif\70.gif" />
+    <Content Include="Icons\gif\71.gif" />
+    <Content Include="Icons\gif\72.gif" />
+    <Content Include="Icons\gif\73.gif" />
+    <Content Include="Icons\gif\74.gif" />
+    <Content Include="Icons\gif\75.gif" />
+    <Content Include="Icons\gif\76.gif" />
+    <Content Include="Icons\gif\77.gif" />
+    <Content Include="Icons\gif\8.gif" />
+    <Content Include="Icons\gif\9.gif" />
+    <Content Include="Icons\ico\1.ico" />
+    <Content Include="Icons\ico\10.ico" />
+    <Content Include="Icons\ico\11.ico" />
+    <Content Include="Icons\ico\12.ico" />
+    <Content Include="Icons\ico\13.ico" />
+    <Content Include="Icons\ico\14.ico" />
+    <Content Include="Icons\ico\15.ico" />
+    <Content Include="Icons\ico\16.ico" />
+    <Content Include="Icons\ico\17.ico" />
+    <Content Include="Icons\ico\18.ico" />
+    <Content Include="Icons\ico\19.ico" />
+    <Content Include="Icons\ico\2.ico" />
+    <Content Include="Icons\ico\20.ico" />
+    <Content Include="Icons\ico\21.ico" />
+    <Content Include="Icons\ico\22.ico" />
+    <Content Include="Icons\ico\23.ico" />
+    <Content Include="Icons\ico\24.ico" />
+    <Content Include="Icons\ico\25.ico" />
+    <Content Include="Icons\ico\26.ico" />
+    <Content Include="Icons\ico\27.ico" />
+    <Content Include="Icons\ico\28.ico" />
+    <Content Include="Icons\ico\29.ico" />
+    <Content Include="Icons\ico\3.ico" />
+    <Content Include="Icons\ico\30.ico" />
+    <Content Include="Icons\ico\31.ico" />
+    <Content Include="Icons\ico\32.ico" />
+    <Content Include="Icons\ico\33.ico" />
+    <Content Include="Icons\ico\34.ico" />
+    <Content Include="Icons\ico\35.ico" />
+    <Content Include="Icons\ico\36.ico" />
+    <Content Include="Icons\ico\37.ico" />
+    <Content Include="Icons\ico\38.ico" />
+    <Content Include="Icons\ico\39.ico" />
+    <Content Include="Icons\ico\4.ico" />
+    <Content Include="Icons\ico\40.ico" />
+    <Content Include="Icons\ico\41.ico" />
+    <Content Include="Icons\ico\42.ico" />
+    <Content Include="Icons\ico\43.ico" />
+    <Content Include="Icons\ico\44.ico" />
+    <Content Include="Icons\ico\45.ico" />
+    <Content Include="Icons\ico\46.ico" />
+    <Content Include="Icons\ico\47.ico" />
+    <Content Include="Icons\ico\48.ico" />
+    <Content Include="Icons\ico\49.ico" />
+    <Content Include="Icons\ico\5.ico" />
+    <Content Include="Icons\ico\50.ico" />
+    <Content Include="Icons\ico\51.ico" />
+    <Content Include="Icons\ico\52.ico" />
+    <Content Include="Icons\ico\53.ico" />
+    <Content Include="Icons\ico\54.ico" />
+    <Content Include="Icons\ico\55.ico" />
+    <Content Include="Icons\ico\56.ico" />
+    <Content Include="Icons\ico\57.ico" />
+    <Content Include="Icons\ico\58.ico" />
+    <Content Include="Icons\ico\59.ico" />
+    <Content Include="Icons\ico\6.ico" />
+    <Content Include="Icons\ico\60.ico" />
+    <Content Include="Icons\ico\61.ico" />
+    <Content Include="Icons\ico\62.ico" />
+    <Content Include="Icons\ico\63.ico" />
+    <Content Include="Icons\ico\64.ico" />
+    <Content Include="Icons\ico\65.ico" />
+    <Content Include="Icons\ico\66.ico" />
+    <Content Include="Icons\ico\67.ico" />
+    <Content Include="Icons\ico\68.ico" />
+    <Content Include="Icons\ico\69.ico" />
+    <Content Include="Icons\ico\7.ico" />
+    <Content Include="Icons\ico\70.ico" />
+    <Content Include="Icons\ico\71.ico" />
+    <Content Include="Icons\ico\72.ico" />
+    <Content Include="Icons\ico\73.ico" />
+    <Content Include="Icons\ico\74.ico" />
+    <Content Include="Icons\ico\75.ico" />
+    <Content Include="Icons\ico\76.ico" />
+    <Content Include="Icons\ico\77.ico" />
+    <Content Include="Icons\ico\8.ico" />
+    <Content Include="Icons\ico\9.ico" />
+    <Content Include="Icons\png\1.png" />
+    <Content Include="Icons\png\10.png" />
+    <Content Include="Icons\png\11.png" />
+    <Content Include="Icons\png\12.png" />
+    <Content Include="Icons\png\13.png" />
+    <Content Include="Icons\png\14.png" />
+    <Content Include="Icons\png\15.png" />
+    <Content Include="Icons\png\16.png" />
+    <Content Include="Icons\png\17.png" />
+    <Content Include="Icons\png\18.png" />
+    <Content Include="Icons\png\19.png" />
+    <Content Include="Icons\png\2.png" />
+    <Content Include="Icons\png\20.png" />
+    <Content Include="Icons\png\21.png" />
+    <Content Include="Icons\png\22.png" />
+    <Content Include="Icons\png\23.png" />
+    <Content Include="Icons\png\24.png" />
+    <Content Include="Icons\png\25.png" />
+    <Content Include="Icons\png\26.png" />
+    <Content Include="Icons\png\27.png" />
+    <Content Include="Icons\png\28.png" />
+    <Content Include="Icons\png\29.png" />
+    <Content Include="Icons\png\3.png" />
+    <Content Include="Icons\png\30.png" />
+    <Content Include="Icons\png\31.png" />
+    <Content Include="Icons\png\32.png" />
+    <Content Include="Icons\png\33.png" />
+    <Content Include="Icons\png\34.png" />
+    <Content Include="Icons\png\35.png" />
+    <Content Include="Icons\png\36.png" />
+    <Content Include="Icons\png\37.png" />
+    <Content Include="Icons\png\38.png" />
+    <Content Include="Icons\png\39.png" />
+    <Content Include="Icons\png\4.png" />
+    <Content Include="Icons\png\40.png" />
+    <Content Include="Icons\png\41.png" />
+    <Content Include="Icons\png\42.png" />
+    <Content Include="Icons\png\43.png" />
+    <Content Include="Icons\png\44.png" />
+    <Content Include="Icons\png\45.png" />
+    <Content Include="Icons\png\46.png" />
+    <Content Include="Icons\png\47.png" />
+    <Content Include="Icons\png\48.png" />
+    <Content Include="Icons\png\49.png" />
+    <Content Include="Icons\png\5.png" />
+    <Content Include="Icons\png\50.png" />
+    <Content Include="Icons\png\51.png" />
+    <Content Include="Icons\png\52.png" />
+    <Content Include="Icons\png\53.png" />
+    <Content Include="Icons\png\54.png" />
+    <Content Include="Icons\png\55.png" />
+    <Content Include="Icons\png\56.png" />
+    <Content Include="Icons\png\57.png" />
+    <Content Include="Icons\png\58.png" />
+    <Content Include="Icons\png\59.png" />
+    <Content Include="Icons\png\6.png" />
+    <Content Include="Icons\png\60.png" />
+    <Content Include="Icons\png\61.png" />
+    <Content Include="Icons\png\62.png" />
+    <Content Include="Icons\png\63.png" />
+    <Content Include="Icons\png\64.png" />
+    <Content Include="Icons\png\65.png" />
+    <Content Include="Icons\png\66.png" />
+    <Content Include="Icons\png\67.png" />
+    <Content Include="Icons\png\68.png" />
+    <Content Include="Icons\png\69.png" />
+    <Content Include="Icons\png\7.png" />
+    <Content Include="Icons\png\70.png" />
+    <Content Include="Icons\png\71.png" />
+    <Content Include="Icons\png\72.png" />
+    <Content Include="Icons\png\73.png" />
+    <Content Include="Icons\png\74.png" />
+    <Content Include="Icons\png\75.png" />
+    <Content Include="Icons\png\76.png" />
+    <Content Include="Icons\png\77.png" />
+    <Content Include="Icons\png\8.png" />
+    <Content Include="Icons\png\9.png" />
+    <Content Include="Icons\readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="PatientsInfo.Window.AboutBox1">
+    <Position X="5" Y="13" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>kIAAAAgAACAgCAUAAACAAEADABAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>AboutBox1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Window.UpdateDataSource">
+    <Position X="22" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Window.FCreateDisease">
+    <Position X="25.75" Y="13" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAACAEABAAIEGAAEgCAAAAAAAAAAABAAAgICM=</HashCode>
+      <FileName>FCreateDisease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Window.FCreatePatient">
+    <Position X="20.75" Y="13" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>MAAIgQQMACIY0DAAAXGABQoSAIABgQIgAEEAAIDAACU=</HashCode>
+      <FileName>FCreatePatient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Window.FCreatePerson">
+    <Position X="9.75" Y="13" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAAAACqYoBAEJGGAAQiCBAAAAAMAAAAAAAQAACs=</HashCode>
+      <FileName>FCreatePerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Window.FMain">
+    <Position X="13.75" Y="13" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>3eqmBt2YBCKCAEAncXmDQFsywzhCgrgQkRHEiIC4SGk=</HashCode>
+      <FileName>FMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Window.Program">
+    <Position X="32.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Window.Properties.Resources">
+    <Position X="0.5" Y="13" Width="3.25" />
+    <Members>
+      <Property Name="_1" Hidden="true" />
+      <Property Name="_10" Hidden="true" />
+      <Property Name="_11" Hidden="true" />
+      <Property Name="_12" Hidden="true" />
+      <Property Name="_13" Hidden="true" />
+      <Property Name="_14" Hidden="true" />
+      <Property Name="_15" Hidden="true" />
+      <Property Name="_16" Hidden="true" />
+      <Property Name="_17" Hidden="true" />
+      <Property Name="_18" Hidden="true" />
+      <Property Name="_19" Hidden="true" />
+      <Property Name="_2" Hidden="true" />
+      <Property Name="_20" Hidden="true" />
+      <Property Name="_21" Hidden="true" />
+      <Property Name="_22" Hidden="true" />
+      <Property Name="_23" Hidden="true" />
+      <Property Name="_24" Hidden="true" />
+      <Property Name="_25" Hidden="true" />
+      <Property Name="_26" Hidden="true" />
+      <Property Name="_27" Hidden="true" />
+      <Property Name="_28" Hidden="true" />
+      <Property Name="_29" Hidden="true" />
+      <Property Name="_3" Hidden="true" />
+      <Property Name="_30" Hidden="true" />
+      <Property Name="_31" Hidden="true" />
+      <Property Name="_32" Hidden="true" />
+      <Property Name="_33" Hidden="true" />
+      <Property Name="_34" Hidden="true" />
+      <Property Name="_35" Hidden="true" />
+      <Property Name="_36" Hidden="true" />
+      <Property Name="_37" Hidden="true" />
+      <Property Name="_38" Hidden="true" />
+      <Property Name="_39" Hidden="true" />
+      <Property Name="_4" Hidden="true" />
+      <Property Name="_40" Hidden="true" />
+      <Property Name="_41" Hidden="true" />
+      <Property Name="_42" Hidden="true" />
+      <Property Name="_43" Hidden="true" />
+      <Property Name="_44" Hidden="true" />
+      <Property Name="_45" Hidden="true" />
+      <Property Name="_46" Hidden="true" />
+      <Property Name="_47" Hidden="true" />
+      <Property Name="_48" Hidden="true" />
+      <Property Name="_49" Hidden="true" />
+      <Property Name="_5" Hidden="true" />
+      <Property Name="_50" Hidden="true" />
+      <Property Name="_51" Hidden="true" />
+      <Property Name="_52" Hidden="true" />
+      <Property Name="_53" Hidden="true" />
+      <Property Name="_54" Hidden="true" />
+      <Property Name="_55" Hidden="true" />
+      <Property Name="_56" Hidden="true" />
+      <Property Name="_57" Hidden="true" />
+      <Property Name="_58" Hidden="true" />
+      <Property Name="_59" Hidden="true" />
+      <Property Name="_6" Hidden="true" />
+      <Property Name="_60" Hidden="true" />
+      <Property Name="_61" Hidden="true" />
+      <Property Name="_62" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAAAAAAAAABAJFAAAAQAEAAAAAAQCAAAAAII=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Window.Properties.Settings">
+    <Position X="29.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientsInfo.Entities.Data.DataContext">
+    <Position X="11.75" Y="3.5" Width="2.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Field Name="dataSet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PatientsInfo.Entities.Data.DataSet">
+    <Position X="11.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PatientsInfo.Entities.Disease">
+    <Position X="7.5" Y="2.75" Width="3.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PatientsInfo.Entities.Entity">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PatientsInfo.Entities.Enum">
+    <Position X="16.5" Y="0.5" Width="4.5" />
+    <NestedTypes>
+      <Enum Name="PatientsInfo.Entities.Enum.Gender" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="PatientsInfo.Entities.Enum.HealthStatus" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PatientsInfo.Entities.MethodsEntity">
+    <Position X="24.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PatientsInfo.Entities.Patient">
+    <Position X="2" Y="2.75" Width="4.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PatientsInfo.Entities.Person">
+    <Position X="0.5" Y="7.25" Width="13" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Methods.Date">
+    <Position X="24.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Methods.Enumerable">
+    <Position X="24.5" Y="0.5" Width="4" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Methods.Str">
+    <Position X="24.5" Y="1.75" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Functional.Filtering">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Functional.Sort">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Functional.Sort.People" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="Functional.Sort.Diseases" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FileIO.BinarySerializationController" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="5.25" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileIO.FileIO">
+    <Position X="37" Y="7.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FileIO.JsonFileIoController" BaseTypeListCollapsed="true">
+    <Position X="40" Y="2" Width="4" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileIO.XAttributeIoController" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="7.5" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileIO.XmlFileIoController" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="5.25" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppSettings.Settings">
+    <Position X="29.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="FileIO.IFileIoController">
+    <Position X="40.5" Y="5.25" Width="3.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

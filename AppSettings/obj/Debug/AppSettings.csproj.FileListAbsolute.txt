@@ -1,0 +1,6 @@
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\AppSettings\bin\Debug\AppSettings.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\AppSettings\bin\Debug\AppSettings.pdb
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\AppSettings\obj\Debug\AppSettings.csproj.AssemblyReference.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\AppSettings\obj\Debug\AppSettings.csproj.CoreCompileInputs.cache
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\AppSettings\obj\Debug\AppSettings.dll
+C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\AppSettings\obj\Debug\AppSettings.pdb
