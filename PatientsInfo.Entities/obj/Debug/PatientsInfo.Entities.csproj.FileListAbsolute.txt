@@ -7,3 +7,12 @@ C:\Users\yarik\Desktop\Програмування\Фінальний проек�
 C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.csproj.CopyComplete
 C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.dll
 C:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.pdb
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\bin\Debug\PatientsInfo.Entities.dll
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\bin\Debug\PatientsInfo.Entities.pdb
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\bin\Debug\Methods.dll
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\bin\Debug\Methods.pdb
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.csproj.AssemblyReference.cache
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.csproj.CoreCompileInputs.cache
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.csproj.CopyComplete
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.dll
+F:\Users\yarik\Desktop\Програмування\Фінальний проект\PatientsInfo\PatientsInfo.Entities\obj\Debug\PatientsInfo.Entities.pdb
